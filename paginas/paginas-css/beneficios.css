@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #BDD684;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+}
+
+.rodape{
+    background-color: #BDD684;
+    display: flex;
+    align-items: center;
+    height: 800px;
+    align-items: flex-end;
+    font-size: 20px;
+    background-image: url(/img/beneficios.jpg);
+    width: 1200px;
+}
+.rodape1{
+    background-color: #295c00;
+    flex-direction: column;
+    display: flex; 
+    height: 56px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px dashed black;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.problema{
+    border-radius: 10px;
+    background-color: #295c00;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+.publico{
+    border-radius: 10px;
+    background-color: #295c00;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+.tecnologia{
+    border-radius: 10px;
+    background-color: #295c00;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.objetivos{
+    border-radius: 10px;
+    background-color: #295c00;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.beneficios{
+    border-radius: 10px;
+    background-color: #295c00;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.texto{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.titulo{
+    background-color: #295c0071;
+    height: 100%;
+    width: 540px;
+    border-radius: 10px;
+    border: 5px solid #295c00;
+    font-size: 30px;
+    color: #295c00;
+    margin-top: 20px;
+}
